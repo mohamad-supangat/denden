@@ -2,7 +2,15 @@
   "name": "boty",
   "version": "0.0.3",
   "module": "src/index.js",
+  "type": "module",
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@mathieuc/tradingview": "^3.3.3"
   }
 }
